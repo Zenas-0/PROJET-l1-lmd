@@ -56,3 +56,28 @@ header{
     width: 100%;
     background: linear-gradient(to right, #0a1f4d, #08e1f0);
 }
+/* Style de la section middle (ou j'ai mis les liens vers les activités YF */
+.milieu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* Style du lien pour les quiz */
+.middle{
+    width: 220px;
+    color :#000000;
+   margin: 10px;
+   padding: 3px;
+    background-color: rgb(14, 72, 123);
+
+}
+/* Style du lien dans middle */
+.middle a{
+    color: black;
+    text-decoration: none;
+}
+/* Style de l'image du lien */
+.image-quiz{
+    width: 90%;
+    height: 70%;
+}
